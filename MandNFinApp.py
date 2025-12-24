@@ -153,7 +153,7 @@ st.sidebar.caption("Simple personal finance + tax sandbox. Not tax advice 🙂")
 # PAGE 1: BUDGET PLANNER
 # ==========================================================
 if page == "Budget Planner":
-    st.title("💸 M&N Financials: Budget Planner")
+    st.title("💸 M&N Financial: Budget Planner")
 
     st.markdown(
         "Enter **monthly** income and expenses to see net cash flow, "
@@ -373,7 +373,7 @@ if page == "Budget Planner":
 # PAGE 2: TAX ESTIMATOR
 # ==========================================================
 else:
-    st.title("🧾 M&N Financials: Tax Estimator")
+    st.title("🧾 M&N Financial: Tax Estimator")
     st.markdown(
         "This is a **toy** tax model so you can simulate **standard vs itemized** deductions, "
         "**brackets**, and **marginal rates**. It is **not** official tax advice."
